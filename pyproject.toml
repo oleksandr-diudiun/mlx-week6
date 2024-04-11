@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "mlx-week6"
+version = "0.1.0"
+description = "MLX"
+authors = ["Sidharth Gupta <itissid@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.2.2"
+torchvision = "^0.17.2"
+jupyter = "^1.0.0"
+tensorboard = "^2.16.2"
+ipdb = "^0.13.13"
+scikit-learn = "^1.4.1.post1"
+pillow = "^10.3.0"
+ipython = "^8.23.0"
+matplotlib = "^3.8.4"
+pandas = "^2.2.1"
+pyarrow = "^15.0.2"
+tqdm = "^4.66.2"
+sentencepiece = "^0.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
